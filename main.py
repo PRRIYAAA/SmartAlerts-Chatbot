@@ -16,7 +16,7 @@ model = genai.GenerativeModel("gemini-2.5-flash")
 # ---------------- CATEGORY MAP (ID BASED) ----------------
 
 CATEGORY_MAP = {
-    1: {
+    2: {
         "name": "Food",
         "subcategories": [
             "Bakery", "Cafe", "Restaurant", "Juice Bar",
@@ -24,7 +24,7 @@ CATEGORY_MAP = {
             "Organic Food Store", "Grocery Store"
         ]
     },
-    2: {
+    3: {
         "name": "Clothing",
         "subcategories": [
             "Men's Wear", "Women's Wear", "Kids Wear",
@@ -32,7 +32,7 @@ CATEGORY_MAP = {
             "Sportswear", "Undergarments"
         ]
     },
-    3: {
+    5: {
         "name": "FMCG",
         "subcategories": [
             "Supermarket", "General Store", "Departmental Store",
